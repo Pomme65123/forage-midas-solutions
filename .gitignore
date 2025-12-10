@@ -1,0 +1,80 @@
+### Maven / Build ###
+# Default Maven build output
+target/
+
+# Maven wrapper - keep the wrapper jar tracked
+!.mvn/wrapper/maven-wrapper.jar
+
+# If modules contain their own target directories under src, allow overrides
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IDEs and editors ###
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+### OS files ###
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+
+### Logs, temp, and runtime files ###
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+### Test and build artifacts ###
+test-classes/
+generated-sources/
+generated-test-sources/
+surefire-reports/
+test_outputs/
+
+### Kafka / Embedded testkit artifacts ###
+kafka-logs/
+
+### Misc ###
+# IDE launch configs and workspace settings
+*.launch
+.settings/
+
+# Ignore local environment files
+.env
+local.properties
+
+# Office/backup/temp files
+~$*
+
+# OneDrive cache/temp (if present in paths)
+**/OneDrive*/
+
+# Keep HELP.md or other docs tracked deliberately, don't ignore by default
