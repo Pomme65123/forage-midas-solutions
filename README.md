@@ -2,6 +2,7 @@
 Solved all five tasks from: https://github.com/vagabond-systems/forage-midas
 
 This project requires Java 17 JDK
+
 Clone the repo:
 ```
 git clone https://github.com/your-username/forage-midas.git
