@@ -7,23 +7,17 @@ Clone the repo:
 ```
 git clone https://github.com/your-username/forage-midas.git
 ```
-To run the first test:
+To run all tests, copy and paste the following code snippet:
+```
+mvn test
+```
+
+
+To run a specific test, copy and paste from the following:
 ```
 mvn test -Dtest=TaskOneTests
-```
-To run the second test:
-```
 mvn test -Dtest=TaskTwoTests
-```
-To run the third test:
-```
 mvn test -Dtest=TaskThreeTests
-```
-To run the fourth test:
-```
 mvn test -Dtest=TaskFourTests
-```
-To run the fifth test:
-```
 mvn test -Dtest=TaskFiveTests
 ```
